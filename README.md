@@ -211,47 +211,6 @@ from vis_scripts.attention_heatmap import generate_heatmap
 heatmap = generate_heatmap(attention_weights, slide_coords)
 ```
 
-## Examples
-
-### Example 1: Migrating Gradio Interface
-
-```
-User: Reference https://github.com/gradio-app/gradio to add a web interface
-for my training launcher script (web_train_launcher.py)
-```
-
-The skill will:
-1. Analyze your training launcher code
-2. Research Gradio's API patterns
-3. Design an integration approach
-4. Generate the web interface code
-
-### Example 2: Porting Data Loader Optimization
-
-```
-User: Based on https://github.com/pytorch/pytorch DataLoader, optimize
-the data loading in my feature_extractor module
-```
-
-The skill will:
-1. Analyze your current data loading code
-2. Research PyTorch DataLoader best practices
-3. Identify optimization opportunities
-4. Generate optimized code
-
-### Example 3: Integrating Visualization Feature
-
-```
-User: Migrate the attention visualization from
-https://github.com/mahmoodlab/CLAM to my vis_scripts directory
-```
-
-The skill will:
-1. Analyze your visualization infrastructure
-2. Research CLAM's visualization approach
-3. Design adaptation strategy
-4. Generate conforming visualization code
-
 ## Troubleshooting
 
 ### DeepWiki Not Available
