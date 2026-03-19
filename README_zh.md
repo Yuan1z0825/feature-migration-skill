@@ -211,60 +211,6 @@ from vis_scripts.attention_heatmap import generate_heatmap
 heatmap = generate_heatmap(attention_weights, slide_coords)
 ```
 
-## 示例案例
-
-### 案例 1：迁移 Gradio 界面
-
-```
-用户：参考 https://github.com/gradio-app/gradio 为我的训练启动器
-脚本 (web_train_launcher.py) 添加 Web 界面
-```
-
-技能将：
-1. 分析您的训练启动器代码
-2. 研究 Gradio 的 API 模式
-3. 设计集成方案
-4. 生成 Web 界面代码
-
-### 案例 2：优化数据加载
-
-```
-用户：基于 https://github.com/pytorch/pytorch 的 DataLoader，
-优化我 feature_extractor 模块的数据加载性能
-```
-
-技能将：
-1. 分析当前数据加载代码
-2. 研究 PyTorch DataLoader 最佳实践
-3. 识别优化机会
-4. 生成优化代码
-
-### 案例 3：集成可视化功能
-
-```
-用户：把 https://github.com/mahmoodlab/CLAM 的注意力可视化
-迁移到我的 vis_scripts 目录
-```
-
-技能将：
-1. 分析您的可视化基础设施
-2. 研究 CLAM 的可视化方法
-3. 设计适配策略
-4. 生成符合规范的可视化代码
-
-### 案例 4：迁移 MIL 模型
-
-```
-用户：把 https://github.com/mahmoodlab/CLAM 的 CLAM 模型
-迁移到我的项目中，我目前已有多个 MIL 模型实现
-```
-
-技能将：
-1. 分析现有 MIL 模型的实现模式
-2. 研究 CLAM 模型架构
-3. 评估与现有代码的兼容性
-4. 生成符合项目规范的模型代码
-
 ## 故障排除
 
 ### DeepWiki 不可用
